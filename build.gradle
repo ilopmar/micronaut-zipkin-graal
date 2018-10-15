@@ -39,7 +39,7 @@ dependencies {
     runtime "io.zipkin.brave:brave-instrumentation-http:4.19.0"
     runtime "io.zipkin.reporter2:zipkin-reporter:2.5.0"
 
-    compile 'io.jaegertracing:jaeger-core:0.31.0'
+    compile 'io.jaegertracing:jaeger-thrift:0.31.0'
 
     runtime "io.micronaut:graal"
     testCompile "junit:junit:4.12"
